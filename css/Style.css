@@ -1,0 +1,50 @@
+p{
+	text-align: center;	
+	font-family: sans-serif;
+}
+
+li{
+	font-family: sans-serif; 
+	margin: 2vh;
+}
+
+/*Specific Styles*/
+#main{
+	width: 80%;
+	margin:auto;
+}
+
+#title{
+	text-align: center; 
+	font-size: 2em;
+}
+
+#image{
+	display:block;
+	max-width:100%;
+	height: auto;
+}
+
+#tribute-info{
+	background: rgb(232,232,232);
+}
+
+/* unvisited link */
+#tribute-link:link {
+  color: #FF0000;
+}
+
+/* visited link */
+#tribute-link:visited {
+  color: black;
+}
+
+/* mouse over link */
+#tribute-link:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+#tribute-link:active {
+  color: #0000FF;
+}
